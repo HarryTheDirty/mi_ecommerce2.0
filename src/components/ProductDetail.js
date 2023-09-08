@@ -20,7 +20,7 @@ function ProductDetail({ products }) {
       <Link to="/login" className="button-link">Iniciar Sesión</Link>
       <h1>Detalle del Producto</h1>
       <div className="product-detail">
-        <img src={require(`../data/images/${product.image}`).default} alt={product.name} />
+        
         <h2>{product.name}</h2>
         <p>Precio: ${product.price}</p>
         <p>Stock: {product.stock} unidades</p>
