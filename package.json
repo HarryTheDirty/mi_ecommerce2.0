@@ -2,7 +2,7 @@
   "name": "mi_ecommerce2.0",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://harrythedirty.github.io/mi_ecommerce_2.0/",
+  "homepage": "https://HarryTheDirty.github.io/mi_ecommerce2.0/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
