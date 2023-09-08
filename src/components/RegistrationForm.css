@@ -1,0 +1,53 @@
+/* Estilo para el contenedor principal */
+.registration-container {
+    background-color: #f2f2f2; /* Color de fondo del formulario */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+/* Estilo para cada grupo de etiqueta y entrada de formulario */
+.form-group {
+    margin-bottom: 20px; /* Espacio entre grupos */
+}
+
+/* Estilo para etiquetas */
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555; /* Color de la etiqueta */
+}
+
+/* Estilo para campos de entrada de texto */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 8px; /* Espacio inferior entre campos */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff; /* Color de fondo del campo */
+}
+
+/* Estilo para el botón de registro */
+.registration-button {
+    background-color: #007bff; /* Color del botón */
+    color: #fff; /* Color del texto del botón */
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición al pasar el mouse */
+}
+
+/* Cambio de color al pasar el mouse sobre el botón */
+.registration-button:hover {
+    background-color: #0056b3; /* Nuevo color al pasar el mouse */
+}
